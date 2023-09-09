@@ -1,6 +1,4 @@
 
-import random
-
 
 def introduction():
     intro = input("Welcome to Trivia Game!\nWould you like to play?\n")
@@ -74,7 +72,6 @@ question5_geography = Question("Geography", "What's the tallest mountain in Euro
 question6_geography = Question("Geography", "Which of these countries border with Equatorial Guinea", ["a : Reoublic of Congo", "b : Malawi", "c : Papua New Guinea", "d : Gabon"], "d")
 
 questions = [question1_history, question1_films, question1_geography, question2_history, question2_films, question2_geography, question3_history, question3_films, question3_geography, question4_history, question4_films, question4_geography, question5_history, question5_films, question5_geography, question6_history, question6_films, question6_geography]
-#random_questions = random.choice(questions)
 player1 = Player("Leo")
 introduction()
 
